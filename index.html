@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sulmona – Guida per la prima visita</title>
+  <meta name="description" content="Sulmona, la città di Ovidio e dei confetti nel cuore della Valle Peligna: storia, cosa vedere, sapori, eventi e domande frequenti.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="barra">
+    <a class="marchio" href="#top">Sulmona</a>
+    <button id="menu-btn" class="menu-btn" aria-expanded="false" aria-controls="nav" aria-label="Apri il menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav" class="nav" aria-label="Sezioni della pagina">
+      <a href="#storia">Storia</a>
+      <a href="#confetto">Il confetto</a>
+      <a href="#cosa-vedere">Cosa vedere</a>
+      <a href="#sapori">Sapori</a>
+      <a href="#eventi">Eventi</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta link-orari" href="#" target="_blank" rel="noopener">Orari e biglietti</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- Intestazione -->
+    <section class="hero">
+      <div class="hero-testo">
+        <p id="sopratitolo" class="sopratitolo"></p>
+        <h1 id="titolo"></h1>
+        <p id="benvenuto" class="benvenuto"></p>
+        <div class="hero-azioni">
+          <a class="bottone" href="#cosa-vedere">Inizia la visita</a>
+          <a class="bottone secondario link-orari" href="#" target="_blank" rel="noopener">Orari e biglietti</a>
+        </div>
+      </div>
+      <div id="foto-hero" class="hero-foto"></div>
+    </section>
+
+    <!-- Introduzione -->
+    <section class="intro contenitore">
+      <p id="intro-testo" class="intro-testo"></p>
+      <dl id="in-breve" class="in-breve"></dl>
+    </section>
+
+    <!-- Storia -->
+    <section id="storia" class="sezione">
+      <div class="contenitore">
+        <header class="titolo-sezione">
+          <p class="occhiello">Linea del tempo</p>
+          <h2>Storia</h2>
+        </header>
+        <ol id="timeline" class="timeline"></ol>
+      </div>
+    </section>
+
+    <!-- Il confetto (sezione simbolo) -->
+    <section id="confetto" class="sezione sezione-confetto">
+      <div class="contenitore due-colonne">
+        <div>
+          <header class="titolo-sezione">
+            <p class="occhiello">Il simbolo della città</p>
+            <h2>Il confetto</h2>
+          </header>
+          <div id="confetto-testo" class="testo"></div>
+          <ul id="confetto-punti" class="punti"></ul>
+        </div>
+        <div id="confetto-foto"></div>
+      </div>
+    </section>
+
+    <!-- Cosa vedere -->
+    <section id="cosa-vedere" class="sezione">
+      <div class="contenitore">
+        <header class="titolo-sezione">
+          <p class="occhiello">Le 7 tappe</p>
+          <h2>Cosa vedere</h2>
+          <p id="vedere-intro" class="sottotitolo"></p>
+        </header>
+        <div id="tappe" class="griglia-tappe"></div>
+
+        <div class="altre-tappe">
+          <div>
+            <h3>Anche in città</h3>
+            <ul id="anche-citta"></ul>
+          </div>
+          <div>
+            <h3>Nei dintorni</h3>
+            <ul id="dintorni"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sapori -->
+    <section id="sapori" class="sezione sezione-chiara">
+      <div class="contenitore">
+        <header class="titolo-sezione">
+          <p class="occhiello">A tavola</p>
+          <h2>Sapori</h2>
+          <p id="sapori-intro" class="sottotitolo"></p>
+        </header>
+        <div class="due-colonne">
+          <div>
+            <div id="sapori-gruppi" class="gruppi"></div>
+            <div id="sapori-evidenza" class="evidenza"></div>
+          </div>
+          <div id="sapori-foto"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eventi -->
+    <section id="eventi" class="sezione">
+      <div class="contenitore">
+        <header class="titolo-sezione">
+          <p class="occhiello">Durante l'anno</p>
+          <h2>Eventi</h2>
+          <p id="eventi-intro" class="sottotitolo"></p>
+        </header>
+        <div class="due-colonne">
+          <div id="eventi-elenco" class="eventi"></div>
+          <div id="eventi-foto"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="sezione sezione-chiara">
+      <div class="contenitore stretto">
+        <header class="titolo-sezione">
+          <p class="occhiello">Prima di partire</p>
+          <h2>Domande frequenti</h2>
+        </header>
+        <div id="faq-elenco" class="faq"></div>
+      </div>
+    </section>
+
+    <!-- Orari e biglietti -->
+    <section class="banda-orari">
+      <div class="contenitore">
+        <h2>Orari e biglietti</h2>
+        <p>Prima della visita consulta il sito ufficiale per orari e prezzi aggiornati.</p>
+        <a class="bottone chiaro link-orari" href="#" target="_blank" rel="noopener">Vai a orari e biglietti</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="piede">
+    <p>Sulmona · Valle Peligna · Abruzzo</p>
+    <p class="piccolo">© <span id="anno"></span></p>
+  </footer>
+
+  <noscript><p class="noscript">Per visualizzare i contenuti di questa pagina è necessario attivare JavaScript.</p></noscript>
+  <script src="contenuti.js"></script>
+</body>
+</html>
