@@ -9,9 +9,9 @@ const CONTENUTI = {
     benvenuto:
       "Benvenuti a Sulmona, la città di Ovidio e dei confetti, adagiata nel cuore della Valle Peligna, tra la Maiella e il Morrone.",
     foto: {
-      file: "",
+      file: "panorama-sulmona.jpg",
       didascalia:
-        "Veduta di Sulmona nella Valle Peligna, con le montagne della Maiella e del Morrone sullo sfondo"
+        "Veduta di Sulmona nella Valle Peligna, con il Morrone sullo sfondo"
     }
   },
 
@@ -98,8 +98,8 @@ const CONTENUTI = {
       { numero: "1783", testo: "Lo stabilimento della famiglia Pelino" }
     ],
     foto: {
-      file: "",
-      didascalia: "Composizioni artistiche di confetti a forma di fiori, spighe e grappoli"
+      file: "confetti-fiori.jpg",
+      didascalia: "Composizioni artistiche di confetti a forma di fiori"
     }
   },
 
@@ -111,6 +111,7 @@ const CONTENUTI = {
         luogo: "Piazza XX Settembre",
         testo:
           "Inaugurata nel 1925 su progetto dello scultore Ettore Ferrari, raffigura in bronzo il celebre poeta latino nato a Sulmona, nell'atto pensoso di meditare.",
+        file: "statua-ovidio.jpg",
         didascalia: "La statua in bronzo di Ovidio in Piazza XX Settembre"
       },
       {
@@ -125,14 +126,16 @@ const CONTENUTI = {
         luogo: "Musei civici",
         testo:
           "Fondato nel 1320 come ospedale per pellegrini, unisce la chiesa barocca al palazzo gotico-rinascimentale, sede dei musei civici, affiancato dal campanile più alto della città.",
-        didascalia: "La facciata del Complesso della Santissima Annunziata con il campanile"
+        file: "annunziata.jpg",
+        didascalia: "La facciata della chiesa barocca e del palazzo gotico-rinascimentale della Santissima Annunziata"
       },
       {
         nome: "Piazza Garibaldi",
         luogo: "Già “piazza del Mercato”",
         testo:
           "Chiamata “piazza del Mercato” fino al 1880, è la piazza principale di Sulmona, incorniciata dall'acquedotto medievale e teatro delle più importanti manifestazioni cittadine.",
-        didascalia: "Piazza Garibaldi con gli archi dell'acquedotto medievale"
+        file: "acquedotto-piazza-garibaldi.jpg",
+        didascalia: "Gli archi dell'acquedotto medievale in Piazza Garibaldi"
       },
       {
         nome: "Monastero di Santa Chiara",
@@ -146,7 +149,8 @@ const CONTENUTI = {
         luogo: "Bottega storica",
         testo:
           "Custode di una storia artigianale tramandata da oltre trecento anni a partire dal confettaro Panfilo La Civita, offre esperienze dedicate alla storia e alla lavorazione dei confetti e delle composizioni artistiche.",
-        didascalia: "Il bancone dell'Antica Confetteria Del Corso con i confetti esposti"
+        file: "confetti-lavorazione.jpg",
+        didascalia: "La lavorazione a mano di un fiore di confetti"
       },
       {
         nome: "Cimitero Monumentale",
@@ -200,8 +204,8 @@ const CONTENUTI = {
         "La cassata sulmonese è considerata la regina dei dolci locali, grazie al suo goloso incontro di pan di Spagna, creme e croccante."
     },
     foto: {
-      file: "",
-      didascalia: "Una fetta di cassata sulmonese accanto a trecce di aglio rosso di Sulmona"
+      file: "confetti-composizione.jpg",
+      didascalia: "Un fiore di confetti con petali e foglie, composto a mano"
     }
   },
 
